@@ -1,6 +1,6 @@
 # DashoTV
 
-PVR software similar to `Sonarr`, `Radarr`, and all the other `\*-arrs` out there. This is
+PVR software similar to `Sonarr`, `Radarr`, and all the other `*-arrs` out there. This is
 [shawncatz](https://github.com/shawncatz)'s personal project to manage my media server.
 
 This is also a project that I use to play around with new technologies and experiment with new ideas.
