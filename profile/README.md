@@ -24,6 +24,21 @@ This code is alpha. It's all public, let me know if you're going to use it, it's
 
 ## Technology
 
+An overview of all the technology used in this project. Everything is built with `golang` and the UI is `react` and `typescript`.
+
+### Services
+
+- [Flame](https://github.com/dashotv/flame) is the service that manages communication with the torrent and nzb
+  downloaders.
+  - It also includes golang clients for `Qbittorrent` and `NZBGet`.
+- [Tower](https://github.com/dashotv/tower) is the service that manages all of the media and communications with
+  `Plex` and `Jellyfin`.
+- [Scry](https://github.com/dashotv/scry) is the search service. It handles searching the `Elasticsearch` indexes of
+  media and releases (torrents and nzbs) as well as searches against `TheTVDB` and `TheMovieDB`.
+- [UI](https://github.com/dashotv/ui) is the web UI for the system. It's built with `React` and `Typescript`.
+
+### Notable Libraries
+
 - [Golem](https://github.com/dashotv/golem) is a custom framework for managing microservices. I built this to play
   around with code generation to simplify working on multiple services. It ain't perfect, but it was fun to build.
 - [Grimoire](https://github.com/dashotv/grimoire) is a custom ORM that's built on top of
@@ -34,17 +49,7 @@ This code is alpha. It's all public, let me know if you're going to use it, it's
 - [TVDB](https://github.com/dashotv/tvdb) is a client for TheTVDB API.
 - [TMDB](https://github.com/dashotv/tmdb) is a client for TheMovieDB API.
 
-### Services
-
-- [Flame](https://github.com/dashotv/flame) is the service that manages communication with the torrent and nzb
-  downloaders.
-  - It also includes golang clients for `Qbittorrent` and `NZBGet`.
-- [Tower](https://github.com/dashotv/tower) is the service that manages all of the media and communications with
-  `Plex` and `Jellyfin`.
-- [Scry](https://github.com/dashotv/scry) is the search service. It handles searches of the media, releases, tvdb, and tmdb.
-- [UI](https://github.com/dashotv/ui) is the web UI for the system. It's built with `React` and `Typescript`.
-
-### Supporting
+### Supporting Systems
 
 - [MongoDB](https://www.mongodb.com/) database
 - [Nats](https://github.com/nats-io) message bus
