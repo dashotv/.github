@@ -10,7 +10,7 @@ started a simple PHP script that would manage TV Series and Movies and grew from
 
 ## Alpha
 
-This code is alpha. It's all public, let me know if you're going to use it, it's still pretty rough.
+This code is alpha. It's all public, but it's still pretty rough. Let me know if you're interested or going to use it.
 
 ## Features
 
