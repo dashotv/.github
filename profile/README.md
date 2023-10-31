@@ -48,6 +48,7 @@ An overview of all the technology used in this project. Everything is built with
 - [Minion](https://github.com/dashotv/minion) is a lightweight background job / worker pool / scheduler.
 - [TVDB](https://github.com/dashotv/tvdb) is a client for TheTVDB API.
 - [TMDB](https://github.com/dashotv/tmdb) is a client for TheMovieDB API.
+- `Arcane` is the setup and management CLI for `DashoTV`, it is not yet released.
 
 ### Supporting Systems
 
