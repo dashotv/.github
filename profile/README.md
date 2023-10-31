@@ -6,7 +6,7 @@ PVR software similar to `Sonarr`, `Radarr`, and all the other `*-arrs` out there
 This is also a project that I use to play around with new technologies and experiment with new ideas.
 
 This is the most recent evolution of software that I've been working on - on and off - for over 20 years. It
-started a simple PHP script that would manage TV Series and Movies and grew from there.
+started as a simple PHP site that would manage TV Series and Movies and grew from there.
 
 ## Alpha
 
